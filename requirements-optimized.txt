@@ -29,6 +29,9 @@ filelock==3.13.1  # Required by Transformers
 # Minimal document processing
 pypdf==3.17.4
 
+# HuggingFace integration
+langchain-huggingface==0.0.7
+
 # Minimal data validation
 pydantic==2.7.4
 typing-extensions==4.9.0
