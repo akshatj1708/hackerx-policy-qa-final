@@ -10,7 +10,7 @@ langchain-community==0.0.30
 langchain==0.1.14
 
 # Pinecone client and integration
-pinecone-client==5.0.1
+pinecone-client>=3.2.2,<4.0.0  # Compatible with langchain-pinecone
 langchain-pinecone==0.1.0
 
 # Google GenAI integration
