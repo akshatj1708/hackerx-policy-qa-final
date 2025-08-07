@@ -4,18 +4,19 @@ uvicorn[standard]==0.24.0
 gunicorn==21.2.0
 python-dotenv==1.0.0
 
-# LangChain - versions compatible with google-genai
+# LangChain ecosystem
 langchain-core==0.1.52
-langchain-community==0.0.30  # Minimum version required by langchain 0.1.14
+langchain-community==0.0.30
 langchain==0.1.14
 
-# Pinecone client - minimal
+# Pinecone client and integration
 pinecone-client==5.0.1
+langchain-pinecone==0.1.0
 
 # Google GenAI integration
 langchain-google-genai==0.0.8
 
-# Optimized PyTorch and Transformers - CPU only
+# ML/DL frameworks
 torch==2.2.2 --index-url https://download.pytorch.org/whl/cpu
 transformers==4.39.3
 sentence-transformers==2.6.1
@@ -26,7 +27,7 @@ safetensors==0.4.2  # Required by Transformers
 huggingface-hub==0.21.4  # Required for model loading
 filelock==3.13.1  # Required by Transformers
 
-# Minimal document processing
+# Document processing
 pypdf==3.17.4
 
 # HuggingFace integration
